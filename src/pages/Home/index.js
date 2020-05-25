@@ -36,7 +36,7 @@ function App(props) {
   value={usuario} 
   onChange={evento => setUsuario(evento.target.value)}/>
   
-  <button type="button" onClick={vamospesquisar}>Buscar!</button>
+  <button type="button" onClick={vamospesquisar}>Buscar</button>
   
   </>
   
